@@ -390,7 +390,7 @@ function renderCommentsList() {
 
 async function loadCommentsFromFile() {
         try{
-                const response = await fetch("/comments.json");
+                const response = await fetch("comments.json");
                 const data = await response.json();
                 commentsList = data.map((item) => {
                         return new Comment(
@@ -559,7 +559,7 @@ function renderPostsList() {
 
 async function loadPostsFromFile() {
         try{
-                const response = await fetch("/publications.json");
+                const response = await fetch("publications.json");
                 const data = await response.json();
                 postsList = data.map((item) => {
                         return new Post(
