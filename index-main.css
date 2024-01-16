@@ -2168,6 +2168,9 @@ iframe{
         width: 790px;
         /* padding-left: 10%; */
     }
+    body{
+        overflow-x: hidden;
+      }
 
     .container-footer{
         display: flex;
@@ -2560,9 +2563,6 @@ iframe{
     .container {
         width: 530px;
     }
-    body{
-        overflow-x: hidden;
-      }
 }
 @media (max-width: 500px){
 
