@@ -738,11 +738,11 @@ class PostPopup {
                                         <div class="repost">
                                                 <p class="date inPopup">Поделиться статьей:</p>
                                                 <div class="repost-icon">
-                                                        <a href="https://vk.com/share.php?url=https://www.dr-gritsenko.com" target="_blank" rel="noreferrer"><img src="/images/vk.png" alt=""/></a>
+                                                        <a href="https://vk.com/share.php?url=https://www.dr-gritsenko.com" target="_blank" rel="noreferrer"><img src="images/vk.png" alt=""/></a>
                                         
-                                                        <a href="https://connect.ok.ru/offer?url=https://www.dr-gritsenko.com&title=DR.GRITSENKO&imageUrl=images/mandala.png"  target="_blank" rel="noreferrer"><img src="/images/ok.png" alt="" /></a>
-                                                        <a href="http://twitter.com/share?https://www.dr-gritsenko.com"  target="_blank" rel="noreferrer"><img src="/images/twitter.png" alt="" /></a>
-                                                        <a href="https://telegram.me/share/url?url=https://www.dr-gritsenko.com"  target="_blank" rel="noreferrer"><img src="/images/telegramm.png" alt="" /></a>
+                                                        <a href="https://connect.ok.ru/offer?url=https://www.dr-gritsenko.com&title=DR.GRITSENKO&imageUrl=images/mandala.png"  target="_blank" rel="noreferrer"><img src="images/ok.png" alt="" /></a>
+                                                        <a href="http://twitter.com/share?https://www.dr-gritsenko.com"  target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="" /></a>
+                                                        <a href="https://telegram.me/share/url?url=https://www.dr-gritsenko.com"  target="_blank" rel="noreferrer"><img src="images/telegramm.png" alt="" /></a>
                                                 </div>
                                         </div>
                                 </div>
@@ -756,14 +756,14 @@ class PostPopup {
                                 <div class="div-for-quote">
                                         <div class="quote-post">
                                                 <div tyle="border-radius: 50px;">
-                                                        <img class="post-portret" src="/images/post-portret.jpg" tyle="border-radius: 50%;" alt=""/>
+                                                        <img class="post-portret" src="images/post-portret.jpg" tyle="border-radius: 50%;" alt=""/>
                                                         <p class="margin-top-post"  s > <b>Сергей Гриценко</b> </p>
                                                         <p  class="vrach-kineziolog">Врач-кинезиолог</p>
                                                         </div>
                                                         <p class="quote" >${this.quote}</p>
                                                 </div>
-                                                <img class="img-quotation-marks" src="/images/quotation-marks.png" alt=""/>
-                                                <img class="img-quotation-marks-for-mobile" src="/images/quotation-marks.png" alt=""/>
+                                                <img class="img-quotation-marks" src="images/quotation-marks.png" alt=""/>
+                                                <img class="img-quotation-marks-for-mobile" src="images/quotation-marks.png" alt=""/>
                                         </div>
                                 </div>
                         </div>
