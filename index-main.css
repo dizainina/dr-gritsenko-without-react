@@ -16,15 +16,11 @@
 }
 
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     width: 100%;
     position: relative;
     width: calc(100vw - 8px);
 }
-
-body, html{
-    overflow-x: hidden;
-  }
 
 main{
     background: rgba(255, 255, 255, 1);
@@ -1919,7 +1915,7 @@ iframe{
         width: 33%;
       }
 
-      body, html{
+      body{
         overflow-x: hidden;
       }
 
