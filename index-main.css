@@ -2191,6 +2191,9 @@ iframe{
         /* padding-left: 10%; */
     }
 
+      body{
+        overflow-x: hidden;
+      }
 
     .container-footer{
         display: flex;
