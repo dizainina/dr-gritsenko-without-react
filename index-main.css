@@ -16,12 +16,12 @@
 }
 
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100%;
     position: relative;
     width: calc(100vw - 8px);
 }
-/* html, body{
+/* html{
     overflow-x: hidden;
   } */
 
@@ -192,6 +192,7 @@ a{
     .logo span, .logo-modal span{
         margin-left: 1.5%;
     }
+
 }
 @media (max-width: 834px){
     .nav-menu li:nth-child(8),
@@ -1801,6 +1802,9 @@ iframe{
     .adv-first, .adv-second, adv-third, .exp-one, .exp-stud {
       display: inline-block;
     }
+    html{
+        overflow-x: hidden;
+      }
   }
 
   /*чтобы не было выидно полосы прокрутки  */
@@ -1866,9 +1870,9 @@ iframe{
         margin-left: 7%;
         margin-bottom: -5%;
     }
-    /* body{
+    body{
         overflow-x: hidden;
-      } */
+      }
 }
 
 /* ------------------------------ */
