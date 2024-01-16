@@ -1134,7 +1134,6 @@ h1{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    color: rgba(95, 77, 60, 1);
   }
   .pagination-number,
   .pagination-button{
@@ -1145,6 +1144,8 @@ h1{
   }
   .pagination-number{
     width: 4rem;
+    color: rgba(95, 77, 60, 1);
+
   }
   .pagination-button{
     width: 13rem;
