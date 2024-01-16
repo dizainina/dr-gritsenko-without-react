@@ -22,9 +22,6 @@ body{
     width: calc(100vw - 8px);
 }
 
-html{
-    overflow-x: hidden;
-  }
 main{
     background: rgba(255, 255, 255, 1);
     display: flex;
@@ -33,7 +30,29 @@ main{
     position: relative;
     min-width: 0;
 }
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
 
+::-webkit-scrollbar {
+    width: 5px; /* ширина нового скроллбара */
+}
+::-webkit-scrollbar-track {
+    background: rgba(199, 195, 195, 0.24); /* цвет фона у дорожки */
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset; /* тень у дорожки */
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgba(199, 195, 195, 0.24) ; /* цвет фона у дорожки */
+    border-radius: 8px; /* скругление углов */
+    border: 1px solid rgba(199, 195, 195, 0.24); /* толщина, стиль и цвет рамки */
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D5A789; /* ползунок меняет цвет при наведении */
+}
 .container {
     width: 1200px;
     display: flex;
@@ -1917,10 +1936,10 @@ iframe{
     .post-item{
         width: 33%;
       }
-/* 
-      html{
+
+      body{
         overflow-x: hidden;
-      } */
+      }
 
     .scrolling-wrapper {
         overflow-x: scroll;
