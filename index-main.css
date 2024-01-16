@@ -1919,9 +1919,9 @@ iframe{
         width: 33%;
       }
 
-      /* body, html{
+      body, html{
         overflow-x: hidden;
-      } */
+      }
 
     .scrolling-wrapper {
         overflow-x: scroll;
