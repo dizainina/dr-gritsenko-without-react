@@ -1936,10 +1936,10 @@ iframe{
     .post-item{
         width: 33%;
       }
-/* 
+
       body{
         overflow-x: hidden;
-      } */
+      }
 
     .scrolling-wrapper {
         overflow-x: scroll;
@@ -2190,10 +2190,6 @@ iframe{
         width: 790px;
         /* padding-left: 10%; */
     }
-
-      body{
-        overflow-x: hidden;
-      }
 
     .container-footer{
         display: flex;
