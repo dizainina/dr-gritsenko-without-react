@@ -1873,7 +1873,16 @@ iframe{
     body{
         overflow-x: hidden;
       }
+      /* html{
+    overflow-x: hidden;
+  } */
 }
+@media (min-width: 1100px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
 
 /* ------------------------------ */
 @media (max-width: 1100px){
