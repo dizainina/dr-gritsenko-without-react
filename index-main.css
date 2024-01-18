@@ -16,14 +16,14 @@
 }
 
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     width: 100%;
     position: relative;
     width: calc(100vw - 8px);
 }
-html{
+/* html{
     overflow-x: hidden;
-  }
+  } */
 
 main{
     background: rgba(255, 255, 255, 1);
@@ -1870,9 +1870,9 @@ iframe{
         margin-left: 7%;
         margin-bottom: -5%;
     }
-    /* body{
+    body{
         overflow-x: hidden;
-      } */
+      }
 }
 
 /* ------------------------------ */
@@ -1899,7 +1899,7 @@ iframe{
         flex-direction: column;
         width: 100%;
     }
-    html, body, .experience{
+    body, .experience{
         overflow-x: hidden;
     }
     .titleOn {
@@ -2121,6 +2121,9 @@ iframe{
 @media (max-width: 840px){
     .container {
         width: 840px;
+    }
+    html, body, .experience{
+        overflow-x: hidden;
     }
     main{
         margin-top: 10%;
