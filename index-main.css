@@ -2122,9 +2122,9 @@ iframe{
     .container {
         width: 840px;
     }
-    /* body, .experience{
+    body{
         overflow-x: hidden;
-    } */
+    }
     main{
         margin-top: 10%;
     }
