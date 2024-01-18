@@ -21,7 +21,7 @@ body{
     position: relative;
     width: 100vw;
 }
-html{
+html, body{
     overflow-x: hidden;
   }
 
@@ -1870,7 +1870,7 @@ iframe{
         margin-left: 7%;
         margin-bottom: -5%;
     }
-    body{
+    html, body{
         overflow-x: hidden;
       }
 }
@@ -1899,7 +1899,7 @@ iframe{
         flex-direction: column;
         width: 100%;
     }
-    body, .experience{
+    html, body, .experience{
         overflow-x: hidden;
     }
     .titleOn {
@@ -2122,9 +2122,9 @@ iframe{
     .container {
         width: 840px;
     }
-    body{
+    html, body{
         overflow-x: hidden;
-    }
+      }
     main{
         margin-top: 10%;
     }
